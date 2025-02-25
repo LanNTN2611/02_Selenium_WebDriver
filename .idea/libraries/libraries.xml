@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="libraries">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/selenium-webdriver-java/libraries/06_testng-7.10.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/selenium-webdriver-java/libraries/04_selenium-server-4.29.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/selenium-webdriver-java/libraries/04_selenium-server-standalone-3.141.59.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

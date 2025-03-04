@@ -104,7 +104,11 @@ public class Topic_01_Register_FMS {
     }
     @Test
     public void Register_06_Success() {
-
+        driver.findElement(By.id("tenDangNhap")).sendKeys(email);
+        driver.findElement(By.id("hoTen")).sendKeys(name);
+        driver.findElement(By.id("matkhau")).sendKeys(password);
+        driver.findElement(By.id("xacnhanmatkhau")).sendKeys(confirmpw);
+        driver.findElement(By.xpath("//button[@class='login100-form-btn']")).click();
         driver.quit();
     }
     public String getEmailAddress(){
